@@ -21,7 +21,7 @@ clean:
 	rm -f -r *.o core *.core myexe college.tar.gz configfile latex html
 
 doczip: $(DEP) $(OBJ) makefile
-	tar cvrf college.tar.gz $^
+	tar -cf college.tar.gz $^
 doc:
 	doxygen -g configfile
 	doxygen configfile
