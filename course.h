@@ -12,6 +12,10 @@
 #ifndef COURSE_H
 #define COURSE_H
 
+///@file course.h
+///Comments for Makefile/Doxygen Quiz
+///This is the .h file for the courses 
+
 class course{
     public:
 	course();

@@ -9,6 +9,10 @@
 #define NODE_H
 #include "course.h"
 
+///@file node.h
+///Makefile/doxygen quiz comments
+///this is the .h file for the node portion of the project
+
 class node{
     public:
 	typedef course value_type;

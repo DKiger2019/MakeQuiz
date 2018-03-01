@@ -10,6 +10,10 @@
 #include<string>
 using namespace std;
 
+///@file course.cc
+///Makefile/doxygen quiz comments
+///this is the cc file for the course portion of the project
+
 course::course(){
     hours = 0.0;
 }
@@ -52,7 +56,8 @@ void course::output(std::ostream& outs)const{
       }
 }
 
-
+///This function is created to determine what GPA's correlate to what grade so that when the User
+///enters their grades they can see their approximated GPA
 double course::get_number_grade()const{
     if(grade == "A") return 4.0;
     if(grade == "A-") return 3.667;

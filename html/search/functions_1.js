@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['get_5fnumber_5fgrade',['get_number_grade',['../classcourse.html#a525d1dd085d0a9f77f861ec5f0b04f6c',1,'course']]]
+];

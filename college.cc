@@ -4,6 +4,11 @@
 //CS 2401
 //10/8/2015
 //********************
+
+///@file college.cc
+///Makefile/doxygen quiz comments
+///this is the cc file for the college project
+
 #include "college.h"
 #include<cstdlib>
 #include<iostream>
@@ -11,6 +16,7 @@
 #include<string>
 using namespace std;
 
+///This is the constructor for the class College.
 College::College(std::string s){
 	name = s;
 	head = NULL;

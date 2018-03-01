@@ -10,6 +10,10 @@
 
 #include<iostream>
 
+///@file tarray.h
+///Makefile/doxygen quiz comments
+///this is the .h file for the tarray portion of the project
+
 template<class T>
 class Tarray{
     public:
