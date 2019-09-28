@@ -21,6 +21,10 @@
 
 using namespace std;
 
+///@file collegemain.cc
+///Comments for the makefile/Doxygen quiz
+///This is the main for the college project
+
 // This function displays the menu and returns the user's choice
 int menu();
 
@@ -47,6 +51,9 @@ int main(){
         mycollege.load(fin);
         fin.close();
 
+	///This is a switch statement the programmer created to make the program user friendly
+	///and set up a nice UI allowing the user to choose what classes they've taken, the hours
+	///any new courses they're taking, etc...
 	choice = menu();
 	while(choice != 0){
 	    switch(choice){

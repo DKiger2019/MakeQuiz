@@ -5,6 +5,10 @@
 //10/8/2015
 //********************
 
+///@file college.h
+///Makefile/doxygen quiz comments
+///this is the .h file for the college portion of the project
+
 #include <iostream>
 #include <fstream>
 #include <string>
